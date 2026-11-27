@@ -1,0 +1,47 @@
+# Operating System & Editor Artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# LaTeX Build & Auxiliary Artifacts
+*.aux
+*.bbl
+*.blg
+*.bcf
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.dvi
+*.xdv
+
+# Python / Jupyter Proof-of-Concept Simulation Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Large Binary & Simulation Data Outputs
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.parquet
